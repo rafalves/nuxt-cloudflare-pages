@@ -1,2 +1,0 @@
-import{e as a,l as r}from"../../../../runtime.mjs";import{h as m,z as e}from"../../../../_/index.mjs";import{r as t}from"../../../../_/auth.mjs";import{r as s}from"../../../../_/features.mjs";const o=e.object({query:e.string().min(1).max(1e6).trim(),params:e.any().array().optional().default([]),mode:e.enum(["raw","all"]).optional().default("all")}),i=a((async a=>{await t(a),s("database");const{query:e,params:i,mode:n}=await r(a,o.parse);return m().prepare(e).bind(...i)["raw"===n?"raw":"all"]({columnNames:!0})}));export{i as default};
-//# sourceMappingURL=query.post.mjs.map

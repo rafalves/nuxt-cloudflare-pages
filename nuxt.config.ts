@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxthub/core"],
   hub: {
-    database: true
+    database: true,
+    remote: true
   }
 })          

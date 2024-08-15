@@ -1,4 +1,4 @@
-import { CfProperties, Request, ExecutionContext, KVNamespace } from '@cloudflare/workers-types';
+import { CfProperties, Request, ExecutionContext, D1Database } from '@cloudflare/workers-types';
 
 declare module 'h3' {
   interface H3EventContext {
@@ -6,7 +6,7 @@ declare module 'h3' {
     cloudflare: {
       request: Request,
       env: {
-        MY_KV: KVNamespace,
+        DB: D1Database,
       }
       context: ExecutionContext,
     };

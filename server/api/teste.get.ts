@@ -1,6 +1,7 @@
 export default defineEventHandler(async ({ context }) => {
   const { DB } = context.cloudflare.env;
 
+  console.log(context.cloudflare)
   const stmt = DB.prepare("SELECT * FROM comments LIMIT 3");
   const { results } = await stmt.all();
 

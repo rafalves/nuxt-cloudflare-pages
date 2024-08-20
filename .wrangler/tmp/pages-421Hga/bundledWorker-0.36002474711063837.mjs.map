@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../../dist/_worker.js/index.js"],
+  "sourceRoot": "C:\\Users\\rafal\\Desktop\\Projetos\\_nuxt\\nuxt-cloudflare-auth\\.wrangler\\tmp\\pages-421Hga\\bundledWorker-0.36002474711063837.mjs",
+  "sourcesContent": ["globalThis._importMeta_={url:\"file:///_entry.js\",env:{}};export{F as default}from\"./chunks/runtime.mjs\";\n//# sourceMappingURL=index.js.map\n"],
+  "mappings": ";AAAyD,SAAY,SAAY;AAAjF,WAAW,eAAa,EAAC,KAAI,qBAAoB,KAAI,CAAC,EAAC;",
+  "names": []
+}

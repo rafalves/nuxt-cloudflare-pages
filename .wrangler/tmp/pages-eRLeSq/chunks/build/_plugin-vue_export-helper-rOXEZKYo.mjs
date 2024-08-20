@@ -1,0 +1,2 @@
+import{i as s,c as r}from"./server.mjs";import{H as e,P as t,Q as o}from"../routes/renderer.mjs";function useHead(a,n={}){const u=n.head||s();if(u)return u.ssr?u.push(a,n):function(s,a,n={}){const u=e(!1),c=e({});t((()=>{c.value=u.value?{}:r(a)}));const f=s.push(c.value,n);return o(c,(s=>{f.patch(s)})),f}(u,a,n)}const _export_sfc=(s,r)=>{const e=s.__vccOpts||s;for(const[s,t]of r)e[s]=t;return e};export{_export_sfc as _,useHead as u};
+//# sourceMappingURL=_plugin-vue_export-helper-rOXEZKYo.mjs.map

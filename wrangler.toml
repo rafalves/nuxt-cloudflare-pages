@@ -1,13 +1,7 @@
-name = "nuxt-cloudflare"
-pages_build_output_dir = "dist"
+name = "nuxt-cloudflare"  
 compatibility_date = "2024-05-12"
 
 [[d1_databases]]
 binding = "DB" # i.e. available in your Worker on env.DB
 database_name = "prod-d1-tutorial"
-database_id = "509dd880-34d5-425e-93fd-ce1ceabacdc2"
-
-# [[d1_databases]]
-# database_id = "1a9e1e09-f61b-49ad-b24a-82769c7beafd"
-# binding = "DB"
-# database_name = "DB"
+database_id = "509dd880-34d5-425e-93fd-ce1ceabacdc2" 

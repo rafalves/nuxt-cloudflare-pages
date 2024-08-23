@@ -6,18 +6,23 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "npm run build && wrangler pages dev",
+    "preview:generate": "npm run build && wrangler pages dev",
+    "preview:run": "npx wrangler pages dev dist",
     "postinstall": "nuxt prepare",
     "deploy": "npm run build && wrangler pages deploy",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "db:generate": "drizzle-kit generate",
+    "db:drop": "drizzle-kit drop"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "drizzle-orm": "^0.33.0",
     "nitro-cloudflare-dev": "^0.1.6",
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
   "devDependencies": {
+    "drizzle-kit": "^0.24.1",
     "wrangler": "^3.57.1"
   }
 }
